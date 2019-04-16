@@ -1,4 +1,3 @@
-
 package main
 import ( "fmt" 
  "flag" 
@@ -48,4 +47,3 @@ func checkLink(Link string, c chan responseInfor)  {
 		duration : time.Now().Sub(start),
 	}
 }
-
